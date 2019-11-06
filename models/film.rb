@@ -42,6 +42,10 @@ class Film
     return customers.count
   end
 
+  def display_film_info(id)
+    return "#{@title} \n Price: #{@price}" if id == @id
+  end
+
   def self.all()
     sql = "SELECT * FROM films"
     film_data = SqlRunner.run(sql)

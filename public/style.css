@@ -1,0 +1,9 @@
+body {
+  background-color: #009FB7;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
+  font-family: Arial;
+  color: White;
+}
